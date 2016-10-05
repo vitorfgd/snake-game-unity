@@ -11,13 +11,13 @@ public class SpawnFood : MonoBehaviour {
 	public Transform bottomWall;
 
 	void Start () {
-		InvokeRepeating ("CreateFood", 3f, 4f);
+		InvokeRepeating ("CreateFood", 1f, 4f);
 	}
 
 	private void CreateFood (){
 
-		int x = (int)(Random.Range (leftWall.position.x, rightWall.position.x));
-		int y = (int)(Random.Range (upWall.position.y, bottomWall.position.y));
+		int x = (int)(Random.Range (leftWall.position.x + 1f, rightWall.position.x -1f));
+		int y = (int)(Random.Range (upWall.position.y - 1f, bottomWall.position.y +1f));
 
 		Instantiate (food, new Vector2 (x, y), Quaternion.identity);
 	}

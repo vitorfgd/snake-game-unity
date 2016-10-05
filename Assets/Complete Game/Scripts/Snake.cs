@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
 public class Snake : MonoBehaviour {
@@ -65,8 +64,7 @@ public class Snake : MonoBehaviour {
 			Destroy(coll.gameObject);
 		}
 		else if (coll.name.StartsWith("parede")) {
-			Debug.Log ("chama o gameover");
-			SceneManager.LoadScene("gameover") ;
+			SceneManager.LoadScene("main") ;
 		}
 	}
 }
