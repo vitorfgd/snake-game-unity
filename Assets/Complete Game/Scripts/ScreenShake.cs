@@ -3,7 +3,6 @@ using System.Collections;
 
 public class ScreenShake : MonoBehaviour {
 
-	private bool shakeit = false;
 	public float shakeAmount;
 	public GameObject cam;
 	public GameObject [] background;
@@ -16,9 +15,8 @@ public class ScreenShake : MonoBehaviour {
 	private void doShake(){
 		
 		int x = (int)Random.Range (0, 4);
-		shakeit = true;
 		
-		iTween.ShakePosition (this.gameObject, new Vector3 (1, 0, 0), 0.3f);
+		iTween.ShakePosition (this.gameObject, new Vector3 (0.7f, 0, 0), 0.3f);
 
 		for (int i = 0; i < 4; i++){
 			background[i].SetActive (false);
@@ -26,9 +24,4 @@ public class ScreenShake : MonoBehaviour {
 
 		background[x].SetActive (true);
 	}
-
-	void StopShaking(){
-		shakeit = false;
-	}
-
 }

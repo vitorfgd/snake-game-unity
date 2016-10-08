@@ -4,39 +4,59 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.SceneManagement;
 
-public class Snake : MonoBehaviour {
+public class Snake_01 : MonoBehaviour {
 
 	public GameObject tailPrefab;
 
-	private Vector2 dir = Vector2.right;
+	private Vector2 dir = Vector2.left;
 	private List<Transform> tail = new List<Transform>();
+	public TextMesh player1_text;
 	private bool ate = false;
 
 	void Start () {
-		InvokeRepeating ("Move", 0.04f, 0.04f);
+		InvokeRepeating ("Move", 0.05f, 0.05f);
 	}
 
 	void Update (){
-		if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)){
-			dir = Vector2.right;
-		} else if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A)){
-			dir = Vector2.left;
-		} else if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W)){
-			dir = Vector2.up;
-		} else if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)){
-			dir = Vector2.down;
+
+		player1_text.text = tail.Count.ToString();
+
+		if (Input.GetKey (KeyCode.RightArrow)){
+			if (dir != Vector2.left){
+				dir = Vector2.right;
+			}
+		} else if (Input.GetKey (KeyCode.LeftArrow)){
+			if (dir != Vector2.right){
+				dir = Vector2.left;
+			}
+		} else if (Input.GetKey (KeyCode.UpArrow)){
+			if (dir != Vector2.down) {
+				dir = Vector2.up;
+			}
+		} else if (Input.GetKey (KeyCode.DownArrow)){
+			if (dir != Vector2.up) {
+				dir = Vector2.down;
+			}
 		}
 
 		if (Input.GetAxis ("LeftJoystickVertical") < 0){
-			dir = Vector2.up;
+			if (dir != Vector2.down) {
+				dir = Vector2.up;
+			}
 		} else if (Input.GetAxis ("LeftJoystickVertical") > 0){
-			dir = Vector2.down;
+			if (dir != Vector2.up) {
+				dir = Vector2.down;
+			}
 		}
 
 		if (Input.GetAxis ("LeftJoystickHorizontal") > 0){
-			dir = Vector2.right;
+			if (dir != Vector2.left) {
+				dir = Vector2.right;
+			}
 		} else if (Input.GetAxis ("LeftJoystickHorizontal") < 0){
-			dir = Vector2.left;
+			if (dir != Vector2.right) {
+				dir = Vector2.left;
+			}
 		}
 	}
 
@@ -62,9 +82,10 @@ public class Snake : MonoBehaviour {
 		if (coll.name.StartsWith("food")) {
 			ate = true;
 			Destroy(coll.gameObject);
-		}
-		else if (coll.name.StartsWith("parede")) {
-			SceneManager.LoadScene("main") ;
+		} else if (coll.name.StartsWith("parede")) {
+			SceneManager.LoadScene("main");
+		} else if (coll.name.StartsWith("tail")){
+			SceneManager.LoadScene("main");
 		}
 	}
 }

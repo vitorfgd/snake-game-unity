@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Complete Game/Scripts/Snake.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Complete Game/Scripts/Snake.cs" Line="4" Column="19" />
-      <File FileName="Assets/Complete Game/Scripts/ScreenShake.cs" Line="23" Column="24" />
-      <File FileName="Assets/Complete Game/Scripts/SpawnFood.cs" Line="14" Column="35" />
+      <File FileName="Assets/Complete Game/Scripts/Snake_01.cs" Line="1" Column="1" />
+      <File FileName="Assets/Complete Game/Scripts/Snake_02.cs" Line="1" Column="1" />
+      <File FileName="Assets/Complete Game/Scripts/SpawnFood.cs" Line="1" Column="1" />
+      <File FileName="Assets/Complete Game/Scripts/ScreenShake.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
