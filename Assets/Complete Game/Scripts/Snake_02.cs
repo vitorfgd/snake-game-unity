@@ -14,7 +14,7 @@ public class Snake_02 : MonoBehaviour {
 	private bool ate = false;
 
 	void Start () {
-		InvokeRepeating ("Move", 0.05f, 0.05f);
+		InvokeRepeating ("Move", 0.1f, 0.1f);
 	}
 
 	void Update (){
