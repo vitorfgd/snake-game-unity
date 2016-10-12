@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Complete Game/Scripts/Snake_02.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ustats/readme.txt">
     <Files>
-      <File FileName="Assets/Complete Game/Scripts/ScreenShake.cs" Line="24" Column="3" />
-      <File FileName="Assets/Complete Game/Scripts/Snake_01.cs" Line="17" Column="37" />
-      <File FileName="Assets/Complete Game/Scripts/Snake_02.cs" Line="6" Column="1" />
-      <File FileName="Assets/Complete Game/Scripts/SpawnFood.cs" Line="14" Column="39" />
+      <File FileName="Assets/Complete Game/Scripts/ScreenShake.cs" Line="1" Column="1" />
+      <File FileName="Assets/Complete Game/Scripts/Snake_01.cs" Line="1" Column="1" />
+      <File FileName="Assets/Complete Game/Scripts/Snake_02.cs" Line="1" Column="1" />
+      <File FileName="Assets/Complete Game/Scripts/SpawnFood.cs" Line="1" Column="1" />
+      <File FileName="Assets/ustats/readme.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

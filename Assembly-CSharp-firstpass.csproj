@@ -49,6 +49,7 @@
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
+     <None Include="Assets\ustats\readme.txt" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Complete Game\Font\bebas_neue\License.txt" />
  <Reference Include="UnityEngine.UI">

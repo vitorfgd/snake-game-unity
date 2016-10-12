@@ -11,7 +11,7 @@ public class SpawnFood : MonoBehaviour {
 	public Transform bottomWall;
 
 	void Start () {
-		InvokeRepeating ("CreateFood", 1f, 2.5f);
+		InvokeRepeating ("CreateFood", 1f, 1.5f);
 	}
 
 	private void CreateFood (){
