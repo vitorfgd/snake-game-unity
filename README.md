@@ -16,4 +16,5 @@ Online
 The complete project can be found at:
 
 - Play online at [itch.io](https://dreamroadproductions.itch.io/supersnake)
+
 = Play online at [gamejolt.com](http://gamejolt.com/dashboard/games/196406)
