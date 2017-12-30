@@ -1,22 +1,19 @@
 supersnake!
 ===================
 
-supersnake! is a quick project created for the "Introduction to game development" course. I tried to cover the basics of game creation such as engine (Unity3D) environment, basic programming, asset usage, game exporting, game feel, gamification, etc.
-
-This course was presented during the "Semana Acadêmica dos Cursos de Informática" at Instituto Federal Catarinense.
+supersnake! is a quick project created for the **"Introduction to Game Development"** course. During the course, I tried to cover the basics of game creation such as engine (Unity3D) environment, basic programming, asset usage, game exporting, game feel, gamification, etc. This course was presented during the "Semana Acadêmica dos Cursos de Informática" at Instituto Federal Catarinense.
 
 
-Project Screenshot
+Screenshot
 -------------
 
-![image](http://i.imgur.com/U88oaHN.png)
+![image](https://i.imgur.com/8EvMrE5.png)
 
 
 Online
 -------------
 
-You can play it online at:
+The complete project can be found at:
 
-Play online at [itch.io](https://dreamroadproductions.itch.io/supersnake)
-
-Play online at [gamejolt.com](http://gamejolt.com/dashboard/games/196406)
+- Play online at [itch.io](https://dreamroadproductions.itch.io/supersnake)
+= Play online at [gamejolt.com](http://gamejolt.com/dashboard/games/196406)
