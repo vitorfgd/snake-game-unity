@@ -1,9 +1,9 @@
 supersnake!
 ===================
 
-supersnake! is a quick project created for the course "Introduction to Game Development". On this course, I tried to cover the basics of game creation such as engine (Unity3D) environment, basic programming, asset usage, game exporting, game feel, gamification, etc.
+supersnake! is a quick project created for the "Introduction to game development" course. I tried to cover the basics of game creation such as engine (Unity3D) environment, basic programming, asset usage, game exporting, game feel, gamification, etc.
 
-The course was presented during the "Semana Acadêmica dos Cursos de Informática" at Instituto Federal Catarinense.
+This course was presented during the "Semana Acadêmica dos Cursos de Informática" at Instituto Federal Catarinense.
 
 
 Project Screenshot
