@@ -1,7 +1,7 @@
 supersnake!
 ===================
 
-**supersnake!** is a quick project created for the **"introduction to game development" course**.
+**supersnake!** is a quick project created for the **"Introduction to Game Development" course**.
 
 During the course, I tried to cover the basics of game creation such as:
 
